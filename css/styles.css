@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,600;0,900;1,800&family=Rowdies:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Prompt';
+}
+/* MENU-Encabezado */
+.Contenedor-Header{
+    background-color: #f9eb3a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.Contenedor-Header header{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 15px 20px;
+}
+
+.Contenedor-Header .Contenedor-Logo a img{
+    float: left;
+    display: flex; 
+    flex-direction: row;
+    width: 25%;
+    margin:auto;
+}
+
+.Contenedor-Header header ul{
+    display: flex;
+    list-style: none;
+}
+.Contenedor-Header header nav ul li a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+    color: #00545a;
+    margin: 5px 20px 5px 20px;
+    padding: 5px;
+    transition: .5s;
+}
+
+
+.Contenedor-Header header nav ul li a:hover{
+    color: #ffff;
+}
+
