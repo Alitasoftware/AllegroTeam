@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Allegro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="icon" href="img\favicon.ico">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="Contenedor-Header">
+        <header>
+        <div class="Contenedor-Logo">
+            <a href="#SobreNosotros">
+                <img src=".\img\alegroLogo.png" alt="Imagen Logo">
+            </a>
+            
+            
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#SobreNosotros">Sobre Nosotros</a></li>
+                <li><a href="#Clases">Clases</a></li>
+                <li><a href="#LenguajeMusical">Lenguaje Musical</a></li>
+                <li><a href="#Lutheria">Lutheria</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+    </div>
+    <!-- SOBRE NOSOTROS -->
+    <section id="SobreNosotros" class="SobreNosotros">
+        <div class="Contenido-Seccion">
+            <h2>ACADEMIA ALEGRO</h2>
+            <p>
+                Descripcion sobre nuestra academia
+            </p>
+        </div>
+    </section>
+    <!-- CLASES -->
+    <section id="CLases" class="Clases">
+        <div class="Contenido-Seccion">
+            <h2>NUESTRAS CLASES</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore alias officiis voluptate! Assumenda tempore, perspiciatis cupiditate reprehenderit nisi itaque et dolorem. Fugiat quisquam, nisi inventore itaque ipsum quasi ratione culpa?</p>
+        </div>
+        <div class="ContenidoClases">
+            <h3>Clases de Instrumentos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda similique accusantium saepe explicabo odit inventore voluptate molestiae hic eligendi, aliquid illum, provident ratione ab illo harum, iusto nam tenetur!</p>
+        </div>
+        <div class="ContenidoClases">
+            <h3>Clases de Instrumentos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda similique accusantium saepe explicabo odit inventore voluptate molestiae hic eligendi, aliquid illum, provident ratione ab illo harum, iusto nam tenetur!</p>
+        </div>
+        <div class="ContenidoClases">
+            <h3>Clases de Instrumentos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda similique accusantium saepe explicabo odit inventore voluptate molestiae hic eligendi, aliquid illum, provident ratione ab illo harum, iusto nam tenetur!</p>
+        </div>
+    </section>
+    <!-- Lenguaje Musical -->
+    <section id="LenguajeMusical" class="LenguajeMusical">
+        <div class="Contenido-Seccion">
+            <h2>LENGUAJE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, expedita veritatis veniam quaerat recusandae asperiores nesciunt quibusdam explicabo quod ab, unde velit voluptatibus voluptatem impedit. Qui, assumenda. Accusamus, in molestiae.</p>
+            <div class="Contenidos">
+                <h3>Composicion</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam unde dolorum harum pariatur reiciendis esse!</p>
+            </div>
+            <div class="Contenidos">
+                <h3>Gramatica del Discurso Musical</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam unde dolorum harum pariatur reiciendis esse!</p>
+            </div>
+        </div>Seccion
+    </section>
+    <!-- Lutheria -->
+    <section id="Lutheria" class="Lutheria">
+        <div class="Contenido-Seccion">
+            <h3>LUTHERIA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam provident, quisquam nam aut blanditiis in tenetur alias ducimus impedit!</p>
+            <div class="tipos">
+                <h3>Vientos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sint!</p>
+            </div>
+            <div class="tipos">
+                <h3>Cuerdas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sint!</p>
+            </div>
+            <div class="tipos">
+                <h3>Percusión</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sint!</p>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTO -->
+        <section id="Contacto" class="Contacto">
+            <div class="Contenido-Seccion">
+                <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="" method="POST" id="form" onsubmit="return validar()">
+                        <input type="text" id="name" placeholder="Tú Nombre" required>
+                        <input type="text" id="phone" placeholder="Número de teléfono" required>
+                        <input type="text" id="email" placeholder="Correo electrónico" required>
+                        <input type="text" id="asunto" placeholder="Asunto" required>
+                        <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
