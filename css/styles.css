@@ -4,49 +4,85 @@
     box-sizing: border-box;
     font-family: 'Prompt';
 }
-/* MENU-Encabezado */
-.Contenedor-Header{
-    background-color: #f9eb3a;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
+
+ main {
+    /* border: 3px red solid; */
+    min-height: 50px;
+    margin: 0.5rem;
 }
-.Contenedor-Header header{
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+
+section {
+    /* border: 2px green solid ; */
+    margin: 0.5rem ;
     
-    padding: 15px 20px;
 }
 
-.Contenedor-Header .Contenedor-Logo a img{
-    float: left;
-    display: flex; 
-    flex-direction: row;
-    width: 25%;
-    margin:auto;
+article {
+    /* border: 2px purple solid; */
+    margin: 0.5rem;
 }
 
-.Contenedor-Header header ul{
+section div {
+    padding: 1rem;
+}
+
+/* MENU-Encabezado */
+header {
+    background-color: #f9eb3a;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
     display: flex;
+}
+
+header nav ul li {
     list-style: none;
+    float: left;
+    margin-top: 2.5rem ;
 }
-.Contenedor-Header header nav ul li a{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+header nav ul li a{
     font-size: 20px;
     color: #00545a;
     margin: 5px 20px 5px 20px;
     padding: 5px;
     transition: .5s;
+    
 }
 
-
-.Contenedor-Header header nav ul li a:hover{
+header nav ul li a:hover{
     color: #ffff;
+} 
+
+.Contenedor-Logo {
+    display: inline-block;
+    /* border: #00545a solid; */
+    max-width: 10rem;
+    margin-top: auto;
+
+}
+
+.Contenedor-Logo img {
+    float: left;
+    display: flex; 
+    flex-direction: row;
+    width: 40%;
+    margin-left: 3rem;
+   
+    
+}
+/* Carousel */
+.carousel {
+    width: auto;
+}
+ 
+/*FOOTER*/
+footer {
+    background-color: #032626;
+    text-align: center;
+    color: azure;
+    
+}
+
+footer a {
+    color: azure;
+   
 }
 
