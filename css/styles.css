@@ -27,10 +27,25 @@ section div {
 }
 
 /* MENU-Encabezado */
-header {
-    background-color: #f9eb3a;
+/* Primera nav */
+/* header {
+    background-color: #f9ec3af5;
     box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
     display: flex;
+} */
+
+header {
+    background-color: #f9ec3af5;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 1rem 2rem;
 }
 
 header nav ul li {
@@ -39,17 +54,19 @@ header nav ul li {
     margin-top: 2.5rem ;
 }
 header nav ul li a{
+    
     font-size: 20px;
     color: #00545a;
     margin: 5px 20px 5px 20px;
     padding: 5px;
-    transition: .5s;
-    
+    transition: .5s;  
 }
 
 header nav ul li a:hover{
     color: #ffff;
 } 
+
+
 
 .Contenedor-Logo {
     display: inline-block;
@@ -68,10 +85,19 @@ header nav ul li a:hover{
    
     
 }
-/* Carousel */
-.carousel {
-    width: auto;
+
+/* Flecha ariiba */
+.flecha-arriba{
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
 }
+
+.flecha-arriba {
+    width: 3rem;
+    height: 3rem;
+  }
  
 /*FOOTER*/
 footer {
