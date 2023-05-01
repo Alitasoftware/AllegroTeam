@@ -86,12 +86,18 @@ header nav ul li a:hover{
     
 }
 
+/* Scroll margin */
+
+section[id] {
+    scroll-margin-top: 100px;
+}
+
 /* Flecha ariiba */
 .flecha-arriba{
     position: fixed;
     right: 0.5%;
     bottom: 3%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .flecha-arriba {
@@ -110,5 +116,11 @@ footer {
 footer a {
     color: azure;
    
+}
+.redes{
+    border-inline-end: solid 2px azure;
+    align-items: center;
+    margin: 0;
+    padding-right: 5px;
 }
 
