@@ -105,6 +105,62 @@ section[id] {
     width: 3rem;
     height: 3rem;
   }
+
+/* CONTACTO */
+.Contacto .Contenido-Seccion{
+    max-width: 1000px;
+    margin: auto;
+}
+.Contacto .Contenido-Seccion h2{
+    font-size: 48px;
+    font-family: 'Prompt';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Contacto .fila{
+    display: flex;
+}
+.Contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.Contacto .col input, .Contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00545a;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.Contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #00545a;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #00545a;
+    position: relative;
+    z-index: 10;
+}
+.Contacto button .overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f9ec3af5;
+    z-index: -1;
+    transition: 1s;
+}
+.Contacto button:hover .overlay{
+    width: 100%;
+}
  
 /*FOOTER*/
 footer {
