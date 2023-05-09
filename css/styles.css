@@ -67,6 +67,9 @@ header nav ul li a:hover{
     color: #ffff;
 } 
 
+h2{
+    color:#00545a;
+}
 
 
 .Contenedor-Logo {
@@ -86,6 +89,31 @@ header nav ul li a:hover{
    
     
 }
+
+/* Sobre Nosotros */
+.SobreNosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    padding: 5rem;
+ } 
+
+ .SobreNosotros img {
+    width: 37.5rem;
+    border-radius: 100%;
+    /* box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%); */
+   
+  }
+
+  .Contenido-about{
+    color: #032626;
+    background-color:#f9ec3a40 ;
+    border-radius: 6px;
+    
+  }
 
 /* Scroll margin */
 
