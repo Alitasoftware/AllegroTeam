@@ -163,11 +163,13 @@ section[id] {
     height: 3rem;
   }
 
+
 /* CONTACTO */
 .Contacto .Contenido-Seccion{
     max-width: 1000px;
     margin: auto;
 }
+
 .Contacto .Contenido-Seccion h2{
     font-size: 48px;
     font-family: 'Prompt';
@@ -232,6 +234,11 @@ footer a {
     color: azure;
    
 }
+
+footer a:hover{
+    color: #f9ec3af5;
+}
+
 .redes{
     border-inline-end: solid 2px azure;
     align-items: center;
