@@ -214,6 +214,13 @@ section[id] {
     width: 100%;
 }
 
+.Contacto .colMapa{
+    position: relative;
+    text-align: center;
+}
+
+
+
 
 /*FOOTER*/
 footer {
