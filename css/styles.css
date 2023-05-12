@@ -234,6 +234,11 @@ section[id] {
 
 
 /* CONTACTO */
+.Contacto{
+    background:linear-gradient(to top, rgba(252, 252, 252, 0.566), rgba(222, 218, 210, 0.609)) 
+    ,url(../img/partituras.jpg);
+    background-size: cover;
+}
 .Contacto .Contenido-Seccion{
     max-width: 1000px;
     margin: auto;
@@ -294,9 +299,6 @@ section[id] {
     position: relative;
     text-align: center;
 }
-
-
-
 
 /*FOOTER*/
 footer {
