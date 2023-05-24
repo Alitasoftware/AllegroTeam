@@ -88,6 +88,7 @@ h2{
     max-width: 68.75rem;
     margin: auto;
     padding: 5rem;
+    /* flex-wrap: wrap; */
  } 
 
  .SobreNosotros img {
@@ -102,6 +103,26 @@ h2{
     
   }
 
+  @media(max-width:768px){
+    .SobreNosotros{
+        flex-wrap: wrap;
+    }
+
+    .SobreNosotros img {
+        width: 90%;   
+      }
+}
+
+@media(max-width:600px){
+    .SobreNosotros{
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .SobreNosotros img {
+        width: 80%; 
+      }
+}
   /* Clases */
   .Clases{
     margin: auto;
@@ -136,6 +157,16 @@ h2{
 
 .ContenidoClases .card h5{
     font-weight: 500;
+}
+
+@media(max-width:600px){
+    .Clases{
+        padding: 1rem;
+      }
+    .ContenidoClases .card{
+        width: 250px;
+        height: 350px;
+    }  
 }
 /* Lutheria */
 .Lutheria{
@@ -212,6 +243,16 @@ h2{
 
 .tarjeta:hover .back{
     transform: perspective(600px) rotateY(360deg);
+}
+
+@media(max-width:600px){
+    .Lutheria{
+        margin: auto;
+        padding: 1rem;
+    }
+    .tarjeta .back{
+        font-size: 11px;
+    }
 }
 /* Scroll margin */
 
@@ -298,7 +339,64 @@ section[id] {
     position: relative;
     text-align: center;
 }
+@media(max-width:768px){
+    .Contenido-Seccion{
+        width: 80%;
+    }
+    .fila{
+        flex-direction: column;
+        
+    }
+    .Contacto .col{
+        width: auto;
+    }
+    .Contacto .Contenido-Seccion h2{
+        font-size: 38px;
+    }
 
+
+    
+}
+
+@media(max-width:600px){
+    .fila{
+        flex-direction: column;
+    }
+   #name{
+    padding: 2px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+   }
+
+   #phone{
+    padding: 2px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+   }
+
+   #email{
+    padding: 2px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+   }
+
+   #asunto{
+    padding: 2px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+   }
+   #mensaje{
+    padding: 2px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+   }
+   
+    .mapa iframe{
+        width: 10rem; 
+        
+    }
+
+}
 /* Comentarios y Reviews */
 .Comentarios{
     display: flex;
