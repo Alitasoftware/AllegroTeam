@@ -87,7 +87,7 @@ h2{
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
-    padding: 5rem;
+    padding: 2rem 5rem;
    
  } 
 
@@ -126,7 +126,7 @@ h2{
   /* Clases */
   .Clases{
     margin: auto;
-    padding: 5rem;
+    padding: 2rem 5rem;
   }
   
 .container {
@@ -144,9 +144,10 @@ h2{
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     transition: all 0.25s;
+    font-size: 15px;
     
 }
 
@@ -171,7 +172,7 @@ h2{
 /* Lutheria */
 .Lutheria{
     margin: auto;
-    padding: 5rem;
+    padding: 2rem 5rem;
 }
 .tarjeta { 
     position: relative;
