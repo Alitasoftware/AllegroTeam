@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,600;0,900;1,800&family=Rowdies:wght@700&display=swap');
 
+.nav-responsive{
+    background-color:#00545a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    
+}
+
 *{
     box-sizing: border-box;
     font-family: 'Prompt';
@@ -340,6 +350,27 @@ section[id] {
     text-align: center;
 }
 @media(max-width:768px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background: linear-gradient(to top,rgba(249, 236, 58, 0.946), rgba(249, 236, 58, 0.937));
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #f9ec3af5;
+        padding: 10px 0;
+    }
     .Contenido-Seccion{
         width: 80%;
     }
